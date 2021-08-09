@@ -47,3 +47,8 @@ table {
 .backgroundClr {
 background-color:#474973;
 }
+
+.prevNextText{
+  color:green;
+  font-weight:bold;
+}
