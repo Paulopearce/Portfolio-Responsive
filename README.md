@@ -25,7 +25,6 @@ First, you will use the Bootstrap CSS Framework to create a mobile responsive po
 
 ✓ * Use Bootstrap's grid system (containers, rows, and columns).
 
-☺︎ * **On an `xs` screen, content should take up the entire screen. On `sm` and larger screens, you should have some margins on the left and right sides of the screen. Check out various sites on your mobile device vs. your computer to see examples of these differences.**
 
 ✓ * Use an HTML validation service to ensure that each page has valid HTML.
 
@@ -47,7 +46,7 @@ First, you will use the Bootstrap CSS Framework to create a mobile responsive po
 
 ✓ * Must contain your personalized information. (bio, name, images, links to social media, etc.)
 
-☺︎ * **Must properly utilize Bootstrap components and grid system.**
+☺︎ * Must properly utilize Bootstrap components and grid system.
 
 
 ### Bonus

@@ -58,4 +58,12 @@ table {
   width: 89px !important;
 }
 
+@media only screen and (max-width:576px){
+  .hunScreen{
+    width: 100%;
+  }
+}
 
+summary{
+  list-style: none;
+}
