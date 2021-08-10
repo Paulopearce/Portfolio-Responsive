@@ -6,12 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
   <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body class="backgroundClr">
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
       <div class="container">
         <a class="navbar-brand" href="https://soundcloud.com/therealpaulpearce">Paul Pearce's Portfolio</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -34,33 +34,114 @@
       </div>
     </nav>
   </header>
-  <div class="card-group">
-    <div class="card">
-      <img src="basic.png" class="card-img-top" alt="Bio webpage, my first website using my own code posted on Github.">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Bio webpage, my first website using my own code posted on Github.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+  <!-- <div class="container">
+    <div class="row row-cols-1 row-cols-md-2">
+      <div class="card-group">
+        <div class="card">
+          <img src="basic.png" class="card-img-top" alt="Bio webpage, my first website using my own code posted on Github.">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Bio webpage, my first website using my own code posted on Github.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="favfood.png" class="card-img-top" alt="Picture of my webpage about my favorite food, Beyond Meat.">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">My webpage about my favorite food, Beyond Meat.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="favmovie.png" class="card-img-top" alt="Picture of a webpage I coded about my favorite movie, Singin' In The Rain">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">webpage I coded about my favorite movie, Singin' In The Rain</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="card">
-      <img src="favfood.png" class="card-img-top" alt="Picture of my webpage about my favorite food, Beyond Meat.">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">My webpage about my favorite food, Beyond Meat.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+  </div> -->
+  <div class="container-fluid">
+    <div class="row row-cols-1 row-cols-md-3 g-4 pt-5">
+      <div class="col">
+        <div class="card h-100">
+          <img src="gridFlag.png" class="card-img-top" alt="American flag webpage made with CSS grid.">
+          <div class="card-body">
+            <h5 class="card-title">CSS grid American Flag</h5>
+            <p class="card-text">American Flag webpage made with CSS grid.</p>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="card">
-      <img src="favmovie.png" class="card-img-top" alt="Picture of a webpage I coded about my favorite movie, Singin' In The Rain">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">webpage I coded about my favorite movie, Singin' In The Rain</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      <div class="col">
+        <div class="card h-100">
+          <img src="favmovie.png" class="card-img-top" alt="Favorite movie Singin' In The Rain webpage">
+          <div class="card-body">
+            <h5 class="card-title">My favorite movie</h5>
+            <p class="card-text">Webpage about my favorite movie, Singin' in the Rain.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="favfood.png" class="card-img-top" alt="Webpage about my favorite food, Beyond Meat.">
+          <div class="card-body">
+            <h5 class="card-title">Favorite food webpage</h5>
+            <p class="card-text">Webpage about my favorite food, Beyond Meat.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="favband.png" class="card-img-top" alt="Webpage about my favorite band, Odd Future.">
+          <div class="card-body">
+            <h5 class="card-title">Favorite band webpage</h5>
+            <p class="card-text">Webpage about my favorite band, Odd Future.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="Random.png" class="card-img-top" alt="Guessing random numbers game I made using Javascript.">
+          <div class="card-body">
+            <h5 class="card-title">Random numbers guessing game</h5>
+            <p class="card-text">Guessing random numbers game I made using Javascript.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="githubio.png" class="card-img-top" alt="Webpage about my favorite band, Odd Future.">
+          <div class="card-body">
+            <h5 class="card-title">Favorite band webpage</h5>
+            <p class="card-text">Webpage about my favorite band, Odd Future.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="basic.png" class="card-img-top" alt="My first bio webpage.">
+          <div class="card-body">
+            <h5 class="card-title">First bio page.</h5>
+            <p class="card-text">My first bio webpage.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="bootstrapflag.png" class="card-img-top" alt="American flag webpage made with the Bootstrap framework.">
+          <div class="card-body">
+            <h5 class="card-title">Bootstrap American flag</h5>
+            <p class="card-text">American flag webpage made with the Bootstrap framework.</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-  
+
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>

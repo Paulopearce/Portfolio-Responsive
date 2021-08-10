@@ -6,12 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Paul's Portfolio Page</title>
   <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body class="backgroundClr">
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
       <div class="container">
         <a class="navbar-brand" href="https://soundcloud.com/therealpaulpearce">Paul Pearce's Portfolio</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -34,47 +33,92 @@
       </div>
     </nav>
   </header>
-  <div class="container pt-5">
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-          aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <div class="container pt-5">
+      <div class="row">
+        <div class="col-md-12">
+          <div id="carouselExampleCaptions" class="carousel slide carousel-dark" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7" aria-label="Slide 8"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="gridFlag.png" class="d-block w-100" alt="American flag webpage made with CSS grid.">
+                <div class="carousel-caption d-none d-md-block carTextStyle">
+                  <h5>CSS grid American Flag</h5>
+                  <p>American Flag webpage made with CSS grid.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="favmovie.png" class="d-block w-100" alt="Webpage about my favorite movie, Singin' in the Rain.">
+                <div class="carousel-caption d-none d-md-block carTextStyle">
+                  <h5>My favorite movie</h5>
+                  <p>Webpage about my favorite movie Singin' in the Rain.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="favfood.png" class="d-block w-100" alt="Webpage about my favorite food, Beyond Meat.">
+                <div class="carousel-caption d-none d-md-block carTextStyle">
+                  <h5>Favorite food webpage</h5>
+                  <p>Webpage about my favorite food, Beyond Meat.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="favband.png" class="d-block w-100" alt="Webpage about my favorite band, Odd Future.">
+                <div class="carousel-caption d-none d-md-block carTextStyle">
+                  <h5>Favorite band webpage</h5>
+                  <p>Webpage about my favorite band, Odd Future.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="Random.png" class="d-block w-100" alt="Guessing random numbers game I made using Javascript.">
+                <div class="carousel-caption d-none d-md-block carTextStyle">
+                  <h5>Random numbers guessing game</h5>
+                  <p>Guessing random numbers game I made using Javascript.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="githubio.png" class="d-block w-100" alt="My bio webpage.">
+                <div class="carousel-caption d-none d-md-block carTextStyle">
+                  <h5>Bio webpage</h5>
+                  <p>My bio webpage.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="bootstrapflag.png" class="d-block w-100" alt="American flag webpage made with the Bootstrap framework.">
+                <div class="carousel-caption d-none d-md-block carTextStyle">
+                  <h5>Bootstrap American flag</h5>
+                  <p>American flag webpage made with the Bootstrap framework.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="basic.png" class="d-block w-100" alt="My first bio webpage.">
+                <div class="carousel-caption d-none d-md-block carTextStyle">
+                  <h5>First bio page.</h5>
+                  <p>My first bio webpage.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
       </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="favfood.png" class="d-block w-100" alt="Favorite food webpage project">
-          <div class="blue-text carousel-caption d-none d-md-block">
-            <h5>My Favorite Food Webpage</h5>
-            <p class="blue-text">Some representative placeholder content for the first slide.</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="favmovie.png" class="d-block w-100" alt="Favorite movie webpage project">
-          <div class="blue-text carousel-caption d-none d-md-block">
-            <h5>My Favorite Movie Webpage</h5>
-            <p class="blue-text">Some representative placeholder content for the second slide.</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="flag.png" class="d-block w-100" alt="Flag made with Bootstrap webpage project">
-          <div class="blue-text carousel-caption d-none d-md-block">
-            <h5>American flag made with Bootstrap</h5>
-            <p class="blue-text">Some representative placeholder content for the third slide.</p>
-          </div>
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden prevNextText">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden prevNextText">Next</span>
-      </button>
     </div>
-  </div>
+  
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
   </script>

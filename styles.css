@@ -39,16 +39,23 @@ table {
   border-spacing: 0;
 }
 
-.blue-text {
-  color: red;
-  background-color: black;
+.carTextStyle {
+  color: black;
+  background-color: rgba(230, 230, 250, .9);
 }
 
 .backgroundClr {
-background-color:#474973;
+  background-color: #474973;
 }
 
-.prevNextText{
-  color:green;
-  font-weight:bold;
+.prevNextText {
+  color: green;
+  font-weight: bold;
 }
+
+.bioPic {
+  height: 89px;
+  width: 89px !important;
+}
+
+
