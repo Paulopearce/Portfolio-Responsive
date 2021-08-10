@@ -8,11 +8,36 @@ Site includes three pages: The home page(index.html), which contains a slideshow
 
 Each page was made with the bootstrap framework and includes a responsive navigation bar that is fixed to the top of the page. This nav bar menu consolidates on a smaller screens allowing you to navigate the pages with a drop-down menu. This menu is accessed by with a press of a single navigation menu drop-down button in the navigation bar. This allows simple navigation between the aforementioned three HTML pages. Each page is responsive, made possible with Bootstrap. The pages contains space on the left and right sides of the content until viewed on a small screen or window, which will allow you to view the content in columns spanning the entire width of the screen, in an order specified by Bootstrap classes.
 
+
 Screenshots of pages:
-/Users/pj/Desktop/Screen Shot 2021-08-10 at 4.17.23 PM.png
-/Users/pj/Desktop/Screen Shot 2021-08-10 at 4.17.14 PM.png
-/Users/pj/Desktop/Screen Shot 2021-08-10 at 4.17.08 PM.png
-/Users/pj/Desktop/Screen Shot 2021-08-10 at 4.16.59 PM.png
-/Users/pj/Desktop/Screen Shot 2021-08-10 at 4.16.20 PM.png
-/Users/pj/Desktop/Screen Shot 2021-08-10 at 4.16.06 PM.png
-/Users/pj/Desktop/Screen Shot 2021-08-10 at 4.15.58 PM.png
+
+	contact webpage screenshot: 
+
+	https://github.com/Paulopearce/Portfolio-Responsive/blob/master/screenshots/contact%20webpage%20screenshot.png
+
+	home webpage screenshot: 
+
+	https://github.com/Paulopearce/Portfolio-Responsive/blob/master/screenshots/home%20webpage%20screenshot.png
+
+	mobile contact page screenshot: 
+	
+	https://github.com/Paulopearce/Portfolio-Responsive/blob/master/screenshots/mobile%20contact%20page%20screenshot.png
+
+	mobile home page screenshot:
+	
+	https://github.com/Paulopearce/Portfolio-Responsive/blob/master/screenshots/mobile%20home%20page%20screenshot.png
+
+	mobile nav bar demonstration screenshot:
+
+https://github.com/Paulopearce/Portfolio-Responsive/blob/master/screenshots/mobile%20nav%20bar%20demonstration%20screenshot.png
+
+	mobile porfolio page screenshot:
+
+	https://github.com/Paulopearce/Portfolio-Responsive/blob/master/screenshots/mobile%20porfolio%20page%20screenshot.png
+
+	portfolio webpage screenshot:
+
+https://github.com/Paulopearce/Portfolio-Responsive/blob/master/screenshots/portfolio%20webpage%20screenshot.png
+
+Link to website:
+https://paulopearce.github.io/Portfolio-Responsive/
