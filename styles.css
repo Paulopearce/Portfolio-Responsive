@@ -58,12 +58,17 @@ table {
   width: 89px !important;
 }
 
-@media only screen and (max-width:576px){
-  .hunScreen{
+@media only screen and (max-width:576px) {
+  .hunScreen {
     width: 100%;
   }
 }
 
-summary{
+summary {
   list-style: none;
+}
+
+.rowFix {
+  width: 100%;
+  margin: auto;
 }
